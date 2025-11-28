@@ -16,7 +16,7 @@
 - esp32 を検索し、esp32 by Espressif Systems をインストール
 
 ### M5StickJumpフォルダ内のinoファイルを開き、コンパイル＆書き込み
-M5StickJump フォルダ内はM5StickC plus2用のArduinoプロジェクトです。<br>
+M5StickJump フォルダ内はM5StickC plus2用のArduinoプロジェクトです。（ルートフォルダのMovingAve.cppもこのプロジェクトから参照します。）<br>
 書き込み、実行するとLCDにBTMACアドレスが表示されます。<br>
 この状態で、音を出したいPCとbluetoothペアリングします。ペアリングは解除しない限り初回のみの作業となります。<br>
 M5Stickは各操作に対応した文字列を送信します。文字列は画面も表示します。<br>
